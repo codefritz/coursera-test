@@ -7,7 +7,7 @@
 /***** genreal style with font ******/
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 100%;
+  font-size: 125%;
   font-weight: bold;
   text-transform: lowercase;
 }
@@ -19,7 +19,6 @@ h2{
   margin: auto;
   float: none;
   width: auto;
-  height: 35px;
   border:3px solid black;
   border-top: 0px;
   border-right: 0px;
@@ -34,6 +33,7 @@ h1 {
   margin-top: 5%;
   margin-bottom: 5%; 
   text-transform: none;
+  font-size: 175%;
 }
 /***** Define section text/background align margins padding and style *****/
 .section {  
