@@ -15,9 +15,12 @@
             margin-left: 25%;
             background-color: rgb(211, 192, 117);
             width: 500px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 120%;
         }
         li {
             color: #4545CC;
+            padding: 2px 2px 2px 2px;
         }
         li.big {
             font-weight: 600;
@@ -25,8 +28,17 @@
         li.yellow {
             color: #ae9b2d;
         }
-        div:nth-child(odd) {
-            color:#454545;
+        .green {
+            color: seagreen;
+        }
+        #intro > div:nth-child(odd) {
+            color:#FFFFFF;
+            background-color: #232323;
+            font-size: 24px;
+        }
+        #intro > div:nth-child(even) {
+            color: #232323;
+            background-color: #FFFFFF;
             font-size: 24px;
         }
         header li {
@@ -84,7 +96,7 @@
         <div>A test page, guiding my coursera course.</div>
         <ul>
             <li class="big">Happy Learning</li>
-            <li class="big yellow">Always 100% Grade</li>
+            <li class="big yellow">Always <span class="green">100%</span> Grade</li>
             <li>Have fun</li>
         </ul>
     </section>
@@ -99,7 +111,12 @@
     <section id="footer"></section>
         <div>
             <h1>Footer</h1>
+            <h1>Cheers</h1>
             <h2>Cheers</h2>
+            <h3>Cheers</h3>
+            <h4>Cheers</h4>
+            <h5>Cheers</h5>
+            <h6>Cheers</h6>
         </div>
     </section>
 </body>
