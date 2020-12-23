@@ -15,7 +15,6 @@
             padding-left: 20px;
         }
         body {
-            margin-left: 25%;
             background-color: rgb(211, 192, 117);
             width: 500px;
             font-family: Arial, Helvetica, sans-serif;
@@ -93,6 +92,22 @@
         #floating > div.odd > p:nth-child(even) {
             background-color: #ffffff;
         }
+        /********** small devices only **********/
+        @media (max-width: 991px) {
+            body {
+                margin-left: 0%;
+            }
+            #responsive {
+                background-color: greenyellow;
+            }
+        }
+        /********** medium devices only **********/
+        @media (min-width: 992px) {
+            body {
+                margin-left: 25%;
+                background-color: rgb(221, 202, 137);
+            }
+        }
 
     </style>
     <title>Hello Site</title>
@@ -105,6 +120,7 @@
         <li><a href="#box-model">Box-Model</a></li>
         <li><a href="#lorem">Lorem</a></li>
         <li><a href="#floating">Floating</a></li>
+        <li><a href="#responsive">Responsive</a></li>
         <li><a href="#footer">Footer</a></li>
     </ul>
     </header>
@@ -162,6 +178,10 @@
         <div class="odd">
             <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
         </div>
+    </section>
+    <section id="responsive">
+        <h1>Responsive</h1>
+        This page is responsive, make it smaller than 992px - and left margin will go away.
     </section>
     <section id="footer">
         <div>
