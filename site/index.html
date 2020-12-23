@@ -6,7 +6,7 @@
         h1 {
             color: #2535AC;
         }
-        body > h1 {
+        header > h1 {
             font-size: 72px;
             background-color: #ffffff;
             padding-left: 20px;
@@ -14,6 +14,7 @@
         body {
             margin-left: 25%;
             background-color: rgb(211, 192, 117);
+            width: 500px;
         }
         li {
             color: #4545CC;
@@ -24,22 +25,82 @@
         li.yellow {
             color: #ae9b2d;
         }
-        span {
+        div:nth-child(odd) {
+            color:#454545;
+            font-size: 24px;
+        }
+        header li {
+            list-style: none;
+        }
+        a:link, a:visited {
+            text-decoration: none;
+            background-color: green;
+            border: 1px solid blue;
+            color: black;
+            display: block;
+            width: 200px;
             text-align: center;
+            margin-bottom: 1px;
+        }
+
+        a:hover, a:active {
+            background-color: rgb(202, 111, 111);
+            color: purple;
+        }
+
+        #box {
+            background-color: royalblue;
+            padding: 20px;
+            border: 5px solid black;
+            margin: 20px;
+            width: 300px;
+            box-sizing: border-box;
+        }
+
+        #content {
+            background-color: seagreen;
         }
     </style>
     <title>Hello Site</title>
 </head>
 <body>
+    <header>
     <h1>Welcome here!</h1>
-    <span>A test page, guiding my coursera course.</span>
     <ul>
-        <li class="big">Happy Learning</li>
-        <li class="big yellow">Always 100% Grade</li>
-        <li>Have fun</li>
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#box-model">Box-Model</a></li>
+        <li><a href="#footer">Footer</a></li>
     </ul>
-    <div>
-        <h1>Cheers</h1>
-    </div>
+    </header>
+    <section id="intro">
+        <h1>Intro</h1>
+        <div>A test page, guiding my coursera course.</div>
+        <div>A test page, guiding my coursera course.</div>
+        <div>A test page, guiding my coursera course.</div>
+        <div>A test page, guiding my coursera course.</div>
+        <div>A test page, guiding my coursera course.</div>
+        <div>A test page, guiding my coursera course.</div>
+        <div>A test page, guiding my coursera course.</div>
+        <div>A test page, guiding my coursera course.</div>
+        <ul>
+            <li class="big">Happy Learning</li>
+            <li class="big yellow">Always 100% Grade</li>
+            <li>Have fun</li>
+        </ul>
+    </section>
+    <section id="box-model">
+        <h1>Box-Model</h1>
+        <div id="box">
+            <div id="content">
+                Hello World
+            </div>
+        </div>
+    </section>
+    <section id="footer"></section>
+        <div>
+            <h1>Footer</h1>
+            <h2>Cheers</h2>
+        </div>
+    </section>
 </body>
 </html>
