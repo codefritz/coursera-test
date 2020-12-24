@@ -3,6 +3,6 @@
 
 ### Mobule 2
 
-- [Sources](https://github.com/codefritz/coursera-test/module2/)
+- [Sources](https://github.com/codefritz/coursera-test/tree/main/module2)
 - [Website](https://codefritz.github.io/coursera-test/module2/)
 
