@@ -1,0 +1,24 @@
+/* NAV */
+
+.navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #1a0a72;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+
+/* END NAV */
+
+
+/* MAIN */
+
+
+#menu-tile {
+    font-size: 2em;
+}
+/* END MAIN */
