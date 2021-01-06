@@ -13,3 +13,9 @@ Implementation of module 3 coding assignment, mandatory part with some optional 
 - [Sources](https://github.com/codefritz/coursera-test/tree/main/module3)
 - [Website](https://codefritz.github.io/coursera-test/module3/)
 
+### Module 4
+
+Implementation of module 4 coding assignment -> coding js.
+
+- [Sources](https://github.com/codefritz/coursera-test/tree/main/module4)
+- [Website](https://codefritz.github.io/coursera-test/module4/)
