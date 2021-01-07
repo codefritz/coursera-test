@@ -18,4 +18,11 @@ Implementation of module 3 coding assignment, mandatory part with some optional 
 Implementation of module 4 coding assignment -> coding js.
 
 - [Sources](https://github.com/codefritz/coursera-test/tree/main/module4)
-- [Website](https://codefritz.github.io/coursera-test/module4/)
+- [Website](https://codefritz.github.io/coursera-test/module4/)i
+
+### Module 5
+
+Implementation of module 5 -> David Chu's Web Page with random special menu.
+
+- [Sources](https://github.com/codefritz/coursera-test/tree/main/module5)
+- [Website](https://codefritz.github.io/coursera-test/module5/)
